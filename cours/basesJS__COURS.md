@@ -1,4 +1,4 @@
-## LES BASES DES BASES POUR COMMENCER JS
+# LES BASES DES BASES POUR COMMENCER JS
 
 1. **Opérateurs arithmétiques**
    let a = 10;

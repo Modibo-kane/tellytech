@@ -169,9 +169,3 @@ L’utilisateur entre deux nombres et choisit une opération parmi `+`, `-`, `*`
 Le programme affiche le résultat correspondant.
 
 ---
-
-### Exercice 15 – Devine le bon âge
-
-Crée une variable `ageSecret = 18`  
-L’utilisateur entre un nombre avec `prompt()`  
-Le programme affiche :
