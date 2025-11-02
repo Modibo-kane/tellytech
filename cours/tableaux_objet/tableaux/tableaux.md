@@ -46,12 +46,6 @@ for (let p of produits) {
   console.log(p);
 }
 
-**9- Parcourir un tableau avec for...in: **
-
-for (let index in produits) {
-  console.log(produits[index]);
-}
-
 ```
 
 ## Méthodes utiles sur les tableaux
@@ -75,6 +69,14 @@ for (let index in produits) {
 ```
 
 - `slice(start, end)`: Retourne une copie d'une portion du tableau.
+
+```js
+  let arr = [1, 2, 3, 4, 5];
+  let newArr = arr.slice(1, 4); // newArr est [2, 3, 4]
+  console.log(newArr);
+  // slice sert à copier une partie du tableau sans modifier l’original
+```
+
 - `indexOf(element)`: Retourne l'index de la première occurrence de l'élément, ou -1 s'il n'est pas trouvé.
 
 ```js
